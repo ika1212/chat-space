@@ -41,5 +41,5 @@
 |group_id|reference|null: false, foreign_key: true|
 
 ### Association
-- belongs_to :users
+- belongs_to :user
 - belongs_to :group
