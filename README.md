@@ -19,7 +19,7 @@
 |user_id|integer|null: false,foreign_key: true|
 ### Association
 - belongs_to :group
-- belongs_to :users
+- belongs_to :user
 
 
 ## groupsテーブル
