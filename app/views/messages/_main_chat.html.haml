@@ -1,0 +1,51 @@
+.main-chat
+  .main-chat__main-header
+    .main-chat__main-header__left-box
+      %h2.main-chat__main-header__left-box__group
+        test
+      %ul.main-chat__main-header__left-box__member-list
+        Member :
+        %li.main-chat__main-header__left-box__member-list__member
+          masa
+    .main-chat__main-header__Edit-btn
+      = link_to "#", class: "Edit-btn" do
+        Edit
+
+  .main-chat__message-list
+    .main-chat__message-list__data-message-id-1
+      .main-chat__message-list__data-message-id-1__talker-infor
+        %p.main-chat__message-list__data-message-id-1__talker-infor__name
+          masa
+        %p.main-chat__message-list__data-message-id-1__talker-infor__date
+          2019/11/20(Wed) 17:43:01
+      %p.main-chat__message-list__data-message-id-1__text
+        おはよう！
+    .main-chat__message-list__data-message-id-2
+      .main-chat__message-list__data-message-id-2__talker-infor
+        %p.main-chat__message-list__data-message-id-2__talker-infor__name
+          masa
+        %p.main-chat__message-list__data-message-id-2__talker-infor__date
+          2019/11/22(Wed) 17:43:01
+      %p.main-chat__message-list__data-message-id-2__text
+        今日は雨
+
+  .main-chat__message-form
+    .main-chat__message-form__input-box
+      %input{type: "text", class:"main-chat__message-form__input-box__text",placeholder: "type a message" }
+      %label{class: "main-chat__message-form__input-box__image"}
+        = icon('fas', 'image')
+        %input{type: "file", class: "main-chat__message-form__input-box__image__file"}
+    .main-chat__message-form__submit-btn
+      Send
+   
+
+
+
+
+      
+
+
+
+
+      
+
