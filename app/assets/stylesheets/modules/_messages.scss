@@ -13,9 +13,6 @@
       display: flex;
       align-items: center;
 
-      
-     
-
       &__box {
         background-color: #253141;
         width: 260px;
@@ -36,8 +33,6 @@
          
 
             &__new-groups {
-              
-       
           
              a {
               color: #ffffff;
@@ -54,19 +49,9 @@
             }
 
             }
-
-
         }
     
         }
-      
-        
-
-      
-    
-
-    
-     
      }
     
     &__groups-list{
@@ -83,25 +68,15 @@
           &__name {
             font-size: 15px;
             margin-bottom: 5px;
-           
-        
-
-        
-        
         
          }
           &__message {
             font-size: 11px;
-            
-
 
           }
         }
       }
     }
-  
-  
-
 
   .main-chat {
     background-color: #ffffff;
@@ -127,8 +102,6 @@
           font-size: 20px;
           color: #333333;
           padding-bottom: 15px;
-         
-         
       
       
         }
@@ -157,33 +130,19 @@
         a {
           color: #38aef0;
           text-decoration: none;
-          
-
-        }
-        
-        
-
-        
-       
-        
-
+        } 
       }
     }
-
 
     &__message-list {
       background-color: #fafafa;
       height: calc(100vh - 190px);
       padding: 40px 46px;
       
-   
       &__data-message-id-1 {
-
 
         &__talker-infor {
           display: flex;
-
-
 
           &__name {
             color: #333333;
@@ -196,20 +155,12 @@
             color: #999999;
             font-size: 12px;
             margin-left: 10px;
-
           }
-      
-       
         }
-    
         &__text {
           font-size: 14px;
           color: #434A54;
-
-
         }
-    
-    
     
       }
       &__data-message-id-2 {
@@ -232,9 +183,7 @@
             color: #999999;
             font-size: 12px;
             margin-left: 10px;
-
           }
-      
        
         }
     
@@ -242,14 +191,9 @@
           font-size: 14px;
           color: #434A54;
 
-
         }
-        
-
 
     }
-
-    
 
     }
     &__message-form {
@@ -262,10 +206,6 @@
         
         width: 100vw;
         position: relative;
-    
-
-      
-
 
         &__text {
          width: 100%;
@@ -273,10 +213,6 @@
          padding: 0 40px 0 10px;
          color: #434A54;
          border-style: solid #434A54;
-         
-
-
-
 
         }
         &__image {
@@ -289,16 +225,12 @@
 
           &__file {
             display: none;
-            
-
-
-
 
           }
         }
       }
 
-        &__submit-btn {
+         &__submit-btn {
           width: 100px;
           height: 50px;
           background-color: #38aef0;
@@ -308,10 +240,6 @@
           color: white;
           line-height: 50px;
           cursor: pointer;
-
-
-
-
 
         }
         }
