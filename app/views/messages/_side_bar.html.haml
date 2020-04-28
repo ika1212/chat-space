@@ -2,14 +2,16 @@
   .chat-side__header
     .chat-side__header__box
       %p.chat-side__header__box__username
-        masa
+        = current_user.name
       %ul.chat-side__header__box__icon-menu
-        %li.chat-side__header__box__icon-menu__edit-user
-          = link_to "#", class: "edit-user"  do
-            = icon('fas','edit')
+
         %li.chat-side__header__box__icon-menu__new-groups
-          = link_to "#", class: "new-groups" do
-            = icon('fas','cog')
+        = link_to "#", class: "new__group" do
+          = icon('fas', 'pen-square', class: 'icon')
+        %li.chat-side__header__box__icon-menu__edit-user
+        = link_to edit_user_path(current_user) do
+          = icon('fas', 'cog', class: 'icon')
+    
         
   .chat-side__groups-list
     .chat-side__groups-list__group
@@ -21,4 +23,5 @@
      
     
 
-
+ 
+ 

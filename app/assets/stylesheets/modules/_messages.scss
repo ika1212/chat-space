@@ -31,13 +31,13 @@
           display: flex;
           align-items: center;
          
+          a {
+           color: #ffffff;
+           text-decoration: none;
+           }
 
             &__new-groups {
-          
-             a {
-              color: #ffffff;
-              text-decoration: none;
-              }
+              
         
             }
             &__edit-user {
