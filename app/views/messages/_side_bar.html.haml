@@ -12,17 +12,17 @@
           = link_to edit_user_path(current_user) do
             = icon('fas', 'cog', class: 'icon')
     
-        
-  .chat-side__groups-list
-    -current_user.groups.each do |group|
+  .groups
+    - current_user.groups.each do |group|
       .group
-        = link_to '#' do
-          .group__name
+        = link_to group_messages_path(group) do
+          %p.group__name
             = group.name
-          .group__message
-            メッセージはまだありません。
-     
-    
+          %P.group__message
+            = group.show_last_message
 
- 
+
+
+
+
  
